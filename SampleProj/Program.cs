@@ -22,11 +22,12 @@ namespace SampleProj
                 Console.WriteLine("Invalid entry for Num2,Please try again");
             }
             Add();
+            Console.WriteLine("Hello");
         }
         private void Add()
         {
             int add = iNum1 + iNum2;
-            Console.WriteLine("Sum is"+add);
+            Console.WriteLine("Sum is "+add);
         }
         static void Main(string[] args)
         {
